@@ -3,7 +3,7 @@ import { Text, StyleSheet, View } from 'react-native'
 
 const ComponentsScreen = () => {
 
-    const greeting = "Hi there!"
+    const greeting = "Kenny"
     const newGreet = <Text>Hello to you!</Text>
 
     return (
