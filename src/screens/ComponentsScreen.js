@@ -18,6 +18,9 @@ const ComponentsScreen = () => {
 const styles = StyleSheet.create({
     textStyle: {
         fontSize: 45
+    },
+    myNameStyle: {
+        fontSize: 20
     }
 })
 
