@@ -2,7 +2,7 @@ import React from 'react';
 import { Text, StyleSheet } from 'react-native'
 
 const ComponentsScreen = () => {
-    return <Text style={styles.textStyle}>This is the components screen</Text>
+    return <Text style={styles.textStyle} >This is the components screen</Text>
 }
 
 const styles = StyleSheet.create({
@@ -10,3 +10,5 @@ const styles = StyleSheet.create({
         fontSize: 30
     }
 })
+
+export default ComponentsScreen
