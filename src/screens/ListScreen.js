@@ -18,7 +18,7 @@ const ListScreen = () => {
         <FlatList
             data={friends}
             renderItem={({item}) => {
-                console.log(item)
+                return <Text>{item.name}</Text>
             }}
         />
     )
