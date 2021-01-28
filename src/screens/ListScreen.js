@@ -15,7 +15,7 @@ const ListScreen = () => {
     ]
 
     return (
-        <FlatList  data={friends}/>
+        <FlatList  data={friends} renderItem={() => {}} />
     )
 }
 
