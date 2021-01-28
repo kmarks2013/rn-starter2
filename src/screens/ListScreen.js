@@ -17,7 +17,7 @@ const ListScreen = () => {
     return (
         <FlatList
             // props to be familar with:
-            horizontal
+            // horizontal
             showsHorizontalScrollIndicator={false}
             // option 2:
             keyExtractor={(friend) => friend.name}
