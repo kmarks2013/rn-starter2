@@ -7,7 +7,7 @@ const ComponentsScreen = () => {
 
     return <View>
             <Text style={styles.textStyle} >This is the components screen</Text>
-            <Text>Hi there!</Text>
+            <Text>{greeting}</Text>
     </View>
 }
 
