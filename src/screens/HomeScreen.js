@@ -6,10 +6,12 @@ const HomeScreen = () => {
     <View>
       <Text style={styles.text}>Hi there!</Text>
       <Button
+      // shows a prestyled button
         onPress={() => console.log('buton pressed')}
         title="Go to Components Demo"
       />
       <TouchableOpacity
+        // shows whatever is inside the opening and closing tags and can be styled
         onPress={() => console.log('List Pressed')}
       >
         <Text>Go to List Demo</Text>
