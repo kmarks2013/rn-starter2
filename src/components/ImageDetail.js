@@ -5,7 +5,7 @@ const ImageDetail = ( {title} ) => {
 
     return (
         <View>
-            <Text>Image Detail</Text>
+            <Text>{title}</Text>
         </View>
     )
 }
