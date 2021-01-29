@@ -9,7 +9,7 @@ const HomeScreen = ({navigation}) => {
       <Text style={styles.text}>Hi there!</Text>
       <Button
       // shows a prestyled button
-        onPress={() => console.log('buton pressed')}
+        onPress={() => navigation.navigate('Components')}
         title="Go to Components Demo"
       />
       <TouchableOpacity
