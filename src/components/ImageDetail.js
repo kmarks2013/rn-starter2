@@ -5,6 +5,7 @@ const ImageDetail = ( {title} ) => {
 
     return (
         <View>
+            <Image />
             <Text>{title}</Text>
         </View>
     )
