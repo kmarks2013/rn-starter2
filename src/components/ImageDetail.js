@@ -5,7 +5,7 @@ const ImageDetail = ( {title} ) => {
 
     return (
         <View>
-            <Image />
+            <Image source={require('../../assets/beach.jpg')} />
             <Text>{title}</Text>
         </View>
     )
