@@ -1,7 +1,7 @@
 import React from 'react'
 import { StyleSheet, Text, View, Image } from 'react-native'
 
-const ImageDetail = ( {title} ) => {
+const ImageDetail = ( {title, imageSource} ) => {
 
     return (
         <View>
