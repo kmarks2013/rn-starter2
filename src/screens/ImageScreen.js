@@ -5,7 +5,6 @@ import ImageDetail from '../components/ImageDetail'
 const ImageScreen = () => {
     return (
         <View>
-            <Text>Image Screen</Text>
             <ImageDetail/>
         </View>
     )
