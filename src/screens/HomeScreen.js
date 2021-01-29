@@ -12,16 +12,16 @@ const HomeScreen = ({navigation}) => {
         onPress={() => navigation.navigate('Components')}
         title="Go to Components Demo"
       />
+      <Button
+        title='Go to List Demo'
+        onPress={() => navigation.navigate('List')}
+      />
       {/* <TouchableOpacity
         // shows whatever is inside the opening and closing tags and can be styled
         onPress={() => navigation.navigate('List')}
       >
         <Text>Go to List Demo</Text>
       </TouchableOpacity> */}
-      <Button
-        title='Go to List Demo'
-        onPress={() => navigation.navigate('List')}
-      />
     </View>
   )
 };
