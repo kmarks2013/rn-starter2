@@ -1,8 +1,8 @@
 import React from "react";
 import {View, Text, StyleSheet, Button, TouchableOpacity } from "react-native";
 
-const HomeScreen = (props) => {
-  console.log(props.navigation)
+const HomeScreen = ({navigation}) => {
+  console.log(navigation)
 
   return(
     <View>
