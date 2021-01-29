@@ -14,7 +14,7 @@ const HomeScreen = ({navigation}) => {
       />
       <TouchableOpacity
         // shows whatever is inside the opening and closing tags and can be styled
-        onPress={() => console.log('List Pressed')}
+        onPress={() => navigation.navigate('List')}
       >
         <Text>Go to List Demo</Text>
       </TouchableOpacity>
