@@ -15,6 +15,7 @@ const ImageScreen = () => {
             />
             <ImageDetail
                 title="Mountain"
+                imageSource={require("../../assets/mountain.jpg")}
             />
         </View>
     )
