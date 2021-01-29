@@ -6,6 +6,7 @@ const ImageScreen = () => {
     return (
         <View>
             <Text>Image Screen</Text>
+            <ImageDetail/>
         </View>
     )
 }
