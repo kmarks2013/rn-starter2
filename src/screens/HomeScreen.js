@@ -2,6 +2,8 @@ import React from "react";
 import {View, Text, StyleSheet, Button, TouchableOpacity } from "react-native";
 
 const HomeScreen = (props) => {
+  console.log(props)
+
   return(
     <View>
       <Text style={styles.text}>Hi there!</Text>
