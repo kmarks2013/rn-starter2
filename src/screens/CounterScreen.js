@@ -21,6 +21,7 @@ const  CounterScreen = () => {
             onPress={() => {
                 // dont update state directly
                 // counter--
+                setCounter(counter - 1)
             }}
             />
             <Text>Current Count: {counter}</Text>
