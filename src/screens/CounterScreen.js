@@ -7,7 +7,9 @@ const  CounterScreen = () => {
 
     return (
         <View>
-            <Button title="Increase" />
+            <Button title="Increase" onPress={() => {
+                conter++
+            }} />
             <Button title="Decrease" />
             <Text>Current Count: 0</Text>
         </View>
