@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import { StyleSheet, Button, View } from 'react-native'
 
 const ColorScreen = () => {
+    const [colors, setColors] = useState([])
     return (
         <View>
             <Button title="Add a Color" />
