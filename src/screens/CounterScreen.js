@@ -13,6 +13,7 @@ const  CounterScreen = () => {
             onPress={() => {
                 // dont update state directly
                 // counter++
+                setCounter(counter + 1)
             }}
             />
             <Button
