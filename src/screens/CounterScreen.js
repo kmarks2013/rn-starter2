@@ -11,14 +11,14 @@ const  CounterScreen = () => {
             <Button
             title="Increase"
             onPress={() => {
-                // dont update state directoly
+                // dont update state directly
                 // counter++
             }}
             />
             <Button
             title="Decrease"
             onPress={() => {
-                // dont update state directoly
+                // dont update state directly
                 // counter--
             }}
             />
