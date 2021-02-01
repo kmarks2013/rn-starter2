@@ -6,6 +6,7 @@ const ColorCounter = () => {
         <View>
             <Text>counter of the color</Text>
             <Button title="Increase Red" />
+            <Button title="Decrease Red" />
         </View>
     )
 }
