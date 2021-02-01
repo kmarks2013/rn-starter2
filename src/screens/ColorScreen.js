@@ -14,6 +14,9 @@ const ColorScreen = () => {
             }}
             />
             <View style={{height: 100, width: 100, backgroundColor: randomRgb()}} />
+            <FlatList
+                data={colors}
+            />
         </View>
     )
 }
