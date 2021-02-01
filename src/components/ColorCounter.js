@@ -4,7 +4,7 @@ import { StyleSheet, Text, View, Button } from 'react-native'
 const ColorCounter = ({ color }) => {
     return (
         <View>
-            <Text>Red</Text>
+            <Text>{color}</Text>
             <Button title="Increase Red" />
             <Button title="Decrease Red" />
         </View>
