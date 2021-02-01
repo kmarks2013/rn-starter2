@@ -21,6 +21,17 @@ const SquareScreen = () => {
     //     }
     // }
 
+    // const setColor = (color, change) => {
+    //     switch (color) {
+    //         case 'red':
+    //             if (red + change > 255 || red +change < 0){
+    //                 return
+    //             } else{
+    //                 setRed(red + change)
+    //             }
+    //     }
+    // }
+
     const setColor = (color, change) => {
         switch (color) {
             case 'red':
