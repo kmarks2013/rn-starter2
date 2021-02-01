@@ -3,6 +3,9 @@ import { StyleSheet, Text, View } from 'react-native'
 import ColorCounter from '../components/ColorCounter'
 
 const SquareScreen = () => {
+    const [red, setRed] = useState(0)
+
+
     return (
         <View>
             <ColorCounter color="Red" />
