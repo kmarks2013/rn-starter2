@@ -3,6 +3,7 @@ import { StyleSheet, Button, View } from 'react-native'
 
 const ColorScreen = () => {
     const [colors, setColors] = useState([])
+    console.log(colors)
 
     return (
         <View>
