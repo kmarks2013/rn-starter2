@@ -10,12 +10,20 @@ const SquareScreen = () => {
     return (
         <View>
             <ColorCounter
-            onIncrease={() => setRed( red + 1 )}
-            onDecrease={() => setRed( red - 1 )}
-            color="Red"
+                onIncrease={() => setRed( red + 1 )}
+                onDecrease={() => setRed( red - 1 )}
+                color="Red"
             />
-            <ColorCounter color="Green"/>
-            <ColorCounter color="Blue"/>
+            <ColorCounter
+                color="Green"
+                onIncrease={() => setRed( red + 1 )}
+                onDecrease={() => setRed( red - 1 )}
+            />
+            <ColorCounter
+                color="Blue"
+                onIncrease={() => setRed( red + 1 )}
+                onDecrease={() => setRed( red - 1 )}
+            />
         </View>
     )
 }
