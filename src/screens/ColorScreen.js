@@ -13,7 +13,8 @@ const ColorScreen = () => {
                 setColors([...colors, randomRgb()])
             }}
             />
-            <View style={{height: 100, width: 100, backgroundColor: randomRgb()}} />
+            {/* Original code showing a random oclor on render */}
+            {/* <View style={{height: 100, width: 100, backgroundColor: randomRgb()}} /> */}
             <FlatList
                 data={colors}
                 renderItem={({item}) => {
