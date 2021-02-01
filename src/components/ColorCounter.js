@@ -5,6 +5,7 @@ const ColorCounter = () => {
     return (
         <View>
             <Text>counter of the color</Text>
+            <Button title="Increase Red" />
         </View>
     )
 }
