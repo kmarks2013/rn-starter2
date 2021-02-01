@@ -16,6 +16,9 @@ const ColorScreen = () => {
             <View style={{height: 100, width: 100, backgroundColor: randomRgb()}} />
             <FlatList
                 data={colors}
+                renderItem={({item}) => {
+                    // item === 'rgb(0,0,0)' <-- current index of color array in this ex'
+                }}
             />
         </View>
     )
