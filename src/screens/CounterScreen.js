@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useReducer } from 'react'
 import { Button, StyleSheet, Text, View } from 'react-native'
 
 const  CounterScreen = () => {
@@ -13,7 +13,7 @@ const  CounterScreen = () => {
             onPress={() => {
                 // dont update state directly
                 // counter++
-                setCounter(counter + 1)
+                // setCounter(counter + 1)
             }}
             />
             <Button
@@ -21,7 +21,7 @@ const  CounterScreen = () => {
             onPress={() => {
                 // dont update state directly
                 // counter--
-                setCounter(counter - 1)
+                // setCounter(counter - 1)
             }}
             />
             <Text>Current Count: {counter}</Text>
