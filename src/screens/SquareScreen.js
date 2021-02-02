@@ -3,6 +3,8 @@ import { StyleSheet, Text, View } from 'react-native'
 import ColorCounter from '../components/ColorCounter'
 
 const COLOR_INCREMENT = 15
+// by convention a reducer is created outside of the component
+
 
 const SquareScreen = () => {
     const [state, dispatch] = useReducer(reducer, { red: 0, green: 0, blue:0})
