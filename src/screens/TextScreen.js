@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import { StyleSheet, Text, View, TextInput } from 'react-native'
 
 const TextScreen = () => {
+    const [name, setName] = useState('')
+
     return (
         <View>
             <Text>Text Screen</Text>
