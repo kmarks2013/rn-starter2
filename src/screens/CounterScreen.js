@@ -38,6 +38,7 @@ const  CounterScreen = () => {
                 // dont update state directly
                 // counter--
                 // setCounter(counter - 1)
+                dispatch({ type:'decrease' })
             }}
             />
             <Text>Current Count: {counter}</Text>
