@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useReducer } from 'react'
 import { StyleSheet, Text, View } from 'react-native'
 import ColorCounter from '../components/ColorCounter'
 
