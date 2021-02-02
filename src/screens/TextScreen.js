@@ -5,6 +5,8 @@ const TextScreen = () => {
     return (
         <View>
             <Text>Text Screen</Text>
+            {/* by default text inputs do not have styling */}
+            <TextInput />
         </View>
     )
 }
