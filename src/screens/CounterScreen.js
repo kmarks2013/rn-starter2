@@ -2,6 +2,8 @@ import React, { useState, useReducer } from 'react'
 import { Button, StyleSheet, Text, View } from 'react-native'
 
 const reducer = (state, action) => {
+    //state === {counter: number}
+    // action === {type: "increase" || "decrease", payload? <-- not needed }
     switch(action.type){
         case 'increase':
         case 'decrease':
