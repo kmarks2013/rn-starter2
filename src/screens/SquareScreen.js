@@ -5,6 +5,14 @@ import ColorCounter from '../components/ColorCounter'
 const COLOR_INCREMENT = 15
 // by convention a reducer is created outside of the component
 const reducer = (state, action) => {
+    // state === { color: number <-- ex: red: 0}
+    // action === { colorToChange: 'red || 'green' || 'blue', amount: 15 || -15}
+    switch (action.colorToChange){
+        case 'red':
+        case 'green':
+        case 'blue':
+        default:
+    }
 
 }
 
