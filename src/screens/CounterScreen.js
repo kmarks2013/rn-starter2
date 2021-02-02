@@ -4,7 +4,9 @@ import { Button, StyleSheet, Text, View } from 'react-native'
 const  CounterScreen = () => {
     // incorrect way to handle state
     // let counter= 0
-    const [counter, setCounter] = useState(0)
+    // const [counter, setCounter] = useState(0)
+    const [state, dispatch] = useReducer(reducer, {counter: 0})
+    const {counter} = state
 
     return (
         <View>
