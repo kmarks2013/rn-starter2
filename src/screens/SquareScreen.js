@@ -6,6 +6,7 @@ const COLOR_INCREMENT = 15
 
 const SquareScreen = () => {
     const [state, dispatch] = useReducer(reducer, { red: 0, green: 0, blue:0})
+    console.log(state)
 
 
     return (
