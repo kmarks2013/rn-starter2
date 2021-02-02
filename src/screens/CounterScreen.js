@@ -1,6 +1,15 @@
 import React, { useState, useReducer } from 'react'
 import { Button, StyleSheet, Text, View } from 'react-native'
 
+const reducer = (state, action) => {
+    switch(action.type){
+        case 'increase':
+        case 'decrease':
+        default:
+            return state
+    }
+}
+
 const  CounterScreen = () => {
     // incorrect way to handle state
     // let counter= 0
