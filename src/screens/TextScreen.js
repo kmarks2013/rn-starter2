@@ -6,7 +6,11 @@ const TextScreen = () => {
         <View>
             <Text>Text Screen</Text>
             {/* by default text inputs do not have styling */}
-            <TextInput />
+            <TextInput
+                style={styles.input}
+                // two important props for text input: autoCapitalize and autoCorrect
+                autoCapitalize="none"
+            />
         </View>
     )
 }
