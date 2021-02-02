@@ -13,4 +13,10 @@ const TextScreen = () => {
 
 export default TextScreen
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+    input: {
+        margin: 15,
+        borderColor: 'black',
+        borderWidth: 1
+    }
+})
