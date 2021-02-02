@@ -8,19 +8,19 @@ const reducer = (state, action) => {
     // state === { color: number <-- ex: red: 0}
     // action === { type: 'change_red || 'change_green' || 'change_blue', payload: 15 || -15}
     switch (action.type){
-        case 'red':
+        case 'change_red':
             //never going to run: state.red === state.red +15
             // if  (state.red + action.amount > 255 || state.red + action.amount < 0){
             return state.red + action.amount > 255 || state.red + action.amount < 0 ?
                 state
                 :
                 {...state, red: state.red + action.amount }
-        case 'green':
+        case 'change_green':
             return state.green + action.amount > 255 || state.green + action.amount < 0 ?
                 state
                 :
                 {...state, green: state.green + action.amount }
-        case 'blue':
+        case 'change_blue':
             return state.blue + action.amount > 255 || state.blue + action.amount < 0 ?
                 state
                 :
