@@ -32,8 +32,8 @@ const SquareScreen = () => {
                 //     if (red + COLOR_INCREMENT > 255)
                 //         setRed( red + COLOR_INCREMENT)
                 // }}
-                onIncrease={() => setColor('red', COLOR_INCREMENT)}
-                onDecrease={() => setColor('red', -1 *COLOR_INCREMENT )}
+                onIncrease={() => dispatch({ colorToChange: 'red', amount: COLOR_INCREMENT})}
+                onDecrease={() => dispatch({ colorToChange: 'red', amount: -1 * COLOR_INCREMENT })}
                 color="Red"
             />
             <ColorCounter
