@@ -29,6 +29,7 @@ const  CounterScreen = () => {
                 // dont update state directly
                 // counter++
                 // setCounter(counter + 1)
+                dispatch({ type:'increase' })
             }}
             />
             <Button
