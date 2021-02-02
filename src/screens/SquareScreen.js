@@ -9,6 +9,7 @@ const reducer = (state, action) => {
     // action === { colorToChange: 'red || 'green' || 'blue', amount: 15 || -15}
     switch (action.colorToChange){
         case 'red':
+            //never going to run: state.red === state.red +15
         case 'green':
         case 'blue':
         default:
