@@ -6,7 +6,7 @@ const TextScreen = () => {
 
     return (
         <View>
-            <Text>Text Screen</Text>
+            <Text>Enter Name:</Text>
             {/* by default text inputs do not have styling */}
             <TextInput
                 style={styles.input}
