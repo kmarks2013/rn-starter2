@@ -10,6 +10,7 @@ const TextScreen = () => {
                 style={styles.input}
                 // two important props for text input: autoCapitalize and autoCorrect
                 autoCapitalize="none"
+                autoCorrect={false}
             />
         </View>
     )
