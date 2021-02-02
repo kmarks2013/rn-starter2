@@ -22,8 +22,7 @@ const reducer = (state, action) => {
 
 const SquareScreen = () => {
     const [state, dispatch] = useReducer(reducer, { red: 0, green: 0, blue:0})
-    console.log(state)
-
+    // console.log(state)
 
     return (
         <View>
