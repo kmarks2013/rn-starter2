@@ -12,7 +12,9 @@ const reducer = (state, action) => {
             //never going to run: state.red === state.red +15
             return {...state, red: state.red + action.amount}
         case 'green':
+            return {...state, red: state.red + action.amount}
         case 'blue':
+            return {...state, red: state.red + action.amount}
         default:
     }
 
