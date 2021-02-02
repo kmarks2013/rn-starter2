@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native'
 const TextScreen = () => {
     return (
         <View>
-            <Text></Text>
+            <Text>Text Screen</Text>
         </View>
     )
 }
