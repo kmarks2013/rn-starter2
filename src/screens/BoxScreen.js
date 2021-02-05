@@ -18,6 +18,7 @@ const styles = StyleSheet.create({
     },
     textStyle: {
         borderWidth: 1,
-        borderColor: 'red'
+        borderColor: 'red',
+        marginVertical: 20
     }
 })
