@@ -17,7 +17,8 @@ const styles = StyleSheet.create({
     viewStyle: {
         borderWidth: 3,
         borderColor: 'black',
-        alignItems: 'flex-start'
+        // alignItems: 'flex-start'
+        alignItems: 'center'
     },
     textStyle: {
         borderWidth: 3,
