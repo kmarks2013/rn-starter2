@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native'
 const BoxScreen = () => {
     return (
         <View style={styles.viewStyle}>
-            <Text>Box  Screen</Text>
+            <Text style={styles.textStyle}>Box  Screen</Text>
         </View>
     )
 }
