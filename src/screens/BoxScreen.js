@@ -13,7 +13,7 @@ export default BoxScreen
 
 const styles = StyleSheet.create({
     viewStyle: {
-        borderWidth: 1,
+        borderWidth: 3,
         borderColor: 'black'
     },
     textStyle: {
