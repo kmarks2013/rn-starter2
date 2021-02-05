@@ -18,7 +18,8 @@ const styles = StyleSheet.create({
         borderWidth: 3,
         borderColor: 'black',
         // alignItems: 'flex-start'
-        alignItems: 'center'
+        // alignItems: 'center'
+        alignItems: 'flex-end'
     },
     textStyle: {
         borderWidth: 3,
