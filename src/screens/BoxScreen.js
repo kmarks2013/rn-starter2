@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
         borderColor: 'black'
     },
     textStyle: {
-        borderWidth: 1,
+        borderWidth: 3,
         borderColor: 'red'
     }
 })
