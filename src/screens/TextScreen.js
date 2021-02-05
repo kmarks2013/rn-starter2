@@ -25,6 +25,7 @@ const TextScreen = () => {
                 autoCapitalize='none'
                 autoCorrect={false}
                 value={password}
+                secureTextEntry
                 onChangeText={(newPassword) => setPassword(newPassword)}
             />
             { password.length < 5 ? <Text>Password Must be 5 characters long</Text> : null   }
