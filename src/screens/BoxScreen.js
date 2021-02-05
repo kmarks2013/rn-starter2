@@ -5,6 +5,8 @@ const BoxScreen = () => {
     return (
         <View style={styles.viewStyle}>
             <Text style={styles.textStyle}>Box  Screen</Text>
+            <Text style={styles.textStyle}>Box  Screen</Text>
+            <Text style={styles.textStyle}>Box  Screen</Text>
         </View>
     )
 }
