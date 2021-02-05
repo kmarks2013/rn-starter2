@@ -16,7 +16,8 @@ export default BoxScreen
 const styles = StyleSheet.create({
     viewStyle: {
         borderWidth: 3,
-        borderColor: 'black'
+        borderColor: 'black',
+        alignItems: 'flex-start'
     },
     textStyle: {
         borderWidth: 3,
