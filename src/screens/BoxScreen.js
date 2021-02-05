@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native'
 
 const BoxScreen = () => {
     return (
-        <View>
+        <View style={styles.viewStyle}>
             <Text>Box  Screen</Text>
         </View>
     )
