@@ -17,6 +17,7 @@ const styles = StyleSheet.create({
     viewStyle:{
         flexDirection: 'row',
         justifyContent: 'space-between',
+        height: 200
     },
     viewOneStyle:{
         height:100,
@@ -28,7 +29,8 @@ const styles = StyleSheet.create({
         width:100,
         backgroundColor:'red',
         // top: 100
-        marginTop: 100
+        // marginTop: 100
+        alignSelf: 'flex-end'
     },
     viewThreeStyle:{
         height:100,
