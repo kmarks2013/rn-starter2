@@ -41,7 +41,8 @@ const styles = StyleSheet.create({
         // alignSelf: 'flex-end'
         // position: 'absolute'
         // top: 10
-        bottom: 10
+        // bottom: 10
+        left: 10
     },
     textThreeStyle: {
         borderWidth: 3,
