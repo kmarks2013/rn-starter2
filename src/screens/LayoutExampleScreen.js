@@ -6,7 +6,7 @@ const LayoutExampleScreen = () => {
         <View>
             <View style={styles.viewOneStyle}></View>
             <View style={styles.viewTwoStyle}></View>
-            <View></View>
+            <View style={styles.viewThreeStyle}></View>
         </View>
     )
 }
