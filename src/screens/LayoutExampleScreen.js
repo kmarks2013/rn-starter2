@@ -26,7 +26,8 @@ const styles = StyleSheet.create({
     viewTwoStyle:{
         height:100,
         width:100,
-        backgroundColor:'red'
+        backgroundColor:'red',
+        top: 100
     },
     viewThreeStyle:{
         height:100,
