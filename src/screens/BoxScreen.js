@@ -26,7 +26,8 @@ const styles = StyleSheet.create({
         // alignItems: 'center'
         // justifyContent: 'center'
         // justifyContent: 'flex-end'
-        justifyContent: 'space-between'
+        // justifyContent: 'space-between'
+        justifyContent: 'space-around'
     },
     textStyle: {
         borderWidth: 3,
