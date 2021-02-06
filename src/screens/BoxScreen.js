@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
         // justifyContent: 'center' <-- flex direction will reverse how it works like align items
         // justifyContent: 'flex-end'
         // justifyContent: 'space-between'
-        justifyContent: 'space-around'
+        justifyContent: 'center'
     },
     textStyle: {
         borderWidth: 3,
