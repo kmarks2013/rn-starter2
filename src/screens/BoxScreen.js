@@ -42,7 +42,8 @@ const styles = StyleSheet.create({
         // position: 'absolute'
         // top: 10
         // bottom: 10
-        left: 10
+        // left: 10
+        right: 10
     },
     textThreeStyle: {
         borderWidth: 3,
