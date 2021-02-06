@@ -39,11 +39,15 @@ const styles = StyleSheet.create({
         borderColor: 'red',
         // flex:4 // <-- cuases elelemnt to take up as much space as possible in the parent
         // alignSelf: 'flex-end'
-        position: 'absolute'
+        position: 'absolute',
         // top: 10
         // bottom: 10
         // left: 10
         // right: 10
+        top: 0,
+        bottom: 0,
+        left: 0,
+        right: 0
     },
     textThreeStyle: {
         borderWidth: 3,
