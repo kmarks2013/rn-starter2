@@ -32,16 +32,16 @@ const styles = StyleSheet.create({
     textOneStyle: {
         borderWidth: 3,
         borderColor: 'red',
-        flex: 1
+        flex: 4
     },
     textTwoStyle: {
         borderWidth: 3,
         borderColor: 'red',
-        flex:1 // <-- cuases elelemnt to take up as much space as possible in the parent
+        flex:4 // <-- cuases elelemnt to take up as much space as possible in the parent
     },
     textThreeStyle: {
         borderWidth: 3,
         borderColor: 'red',
-        flex: 1
+        flex: 2
     }
 })
