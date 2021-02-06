@@ -17,17 +17,17 @@ const styles = StyleSheet.create({
     viewStyle: {
         borderWidth: 3,
         borderColor: 'black',
+        height: 200,
         // alignItems: 'flex-start'
         // alignItems: 'center'
         // alignItems: 'flex-end' // <-- depends upon flex direction. if its column its left to right if its row its top to bottom
         // flexDirection: 'column'  default flex direciton
         // flexDirection: 'row',
-        height: 200,
         // alignItems: 'center'
         // justifyContent: 'center' <-- flex direction will reverse how it works like align items
         // justifyContent: 'flex-end'
         // justifyContent: 'space-between'
-        justifyContent: 'center'
+        // justifyContent: 'center'
     },
     textOneStyle: {
         borderWidth: 3,
