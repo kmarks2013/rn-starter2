@@ -21,6 +21,7 @@ const styles = StyleSheet.create({
         // alignItems: 'center'
         // alignItems: 'flex-end' // <-- depends upon flex direction. if its column its left to right if its row its top to bottom
         // flexDirection: 'column'  default flex direciton
+        flexDirection: 'row'
     },
     textStyle: {
         borderWidth: 3,
