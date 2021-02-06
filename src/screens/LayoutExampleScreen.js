@@ -27,7 +27,8 @@ const styles = StyleSheet.create({
         height:100,
         width:100,
         backgroundColor:'red',
-        top: 100
+        // top: 100
+        marginTop: 100
     },
     viewThreeStyle:{
         height:100,
