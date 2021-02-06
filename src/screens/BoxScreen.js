@@ -40,6 +40,7 @@ const styles = StyleSheet.create({
     },
     textThreeStyle: {
         borderWidth: 3,
-        borderColor: 'red'
+        borderColor: 'red',
+        flex: 1
     }
 })
