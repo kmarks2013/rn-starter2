@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
         // flexDirection: 'row',
         height: 200,
         // alignItems: 'center'
-        // justifyContent: 'center'
+        // justifyContent: 'center' <-- flex direction will reverse how it works like align items
         // justifyContent: 'flex-end'
         // justifyContent: 'space-between'
         justifyContent: 'space-around'
