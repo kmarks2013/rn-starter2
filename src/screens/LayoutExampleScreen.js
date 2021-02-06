@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native'
 
 const LayoutExampleScreen = () => {
     return (
-        <View>
+        <View style={styles.viewStyle}>
             <View style={styles.viewOneStyle}></View>
             <View style={styles.viewTwoStyle}></View>
             <View style={styles.viewThreeStyle}></View>
