@@ -32,5 +32,13 @@ const styles = StyleSheet.create({
     textOneStyle: {
         borderWidth: 3,
         borderColor: 'red'
+    },
+    textTwoStyle: {
+        borderWidth: 3,
+        borderColor: 'red'
+    },
+    textThreeStyle: {
+        borderWidth: 3,
+        borderColor: 'red'
     }
 })
