@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
         borderColor: 'black',
         height: 200,
         // alignItems: 'flex-start'
-        alignItems: 'center'
+        // alignItems: 'flex-end'
         // alignItems: 'flex-end' // <-- depends upon flex direction. if its column its left to right if its row its top to bottom
         // flexDirection: 'column'  default flex direciton
         // flexDirection: 'row',
@@ -38,7 +38,17 @@ const styles = StyleSheet.create({
         borderWidth: 3,
         borderColor: 'red',
         // flex:4 // <-- cuases elelemnt to take up as much space as possible in the parent
-        alignSelf: 'flex-end'
+        // alignSelf: 'flex-end'
+        // position: 'absolute',
+        // top: 10
+        // bottom: 10
+        // left: 10
+        // right: 10
+        // top: 0,
+        // bottom: 0,
+        // left: 0,
+        // right: 0
+        ...StyleSheet.absoluteFillObject
     },
     textThreeStyle: {
         borderWidth: 3,
