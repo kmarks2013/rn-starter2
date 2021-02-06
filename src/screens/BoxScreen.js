@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
         // top: 10
         // bottom: 10
         // left: 10
-        right: 10
+        // right: 10
     },
     textThreeStyle: {
         borderWidth: 3,
