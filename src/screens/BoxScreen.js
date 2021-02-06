@@ -24,6 +24,7 @@ const styles = StyleSheet.create({
         // flexDirection: 'row',
         height: 200,
         // alignItems: 'center'
+        justifyContent: 'center'
     },
     textStyle: {
         borderWidth: 3,
