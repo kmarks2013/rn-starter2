@@ -35,7 +35,8 @@ const styles = StyleSheet.create({
     },
     textTwoStyle: {
         borderWidth: 3,
-        borderColor: 'red'
+        borderColor: 'red',
+        flex:1
     },
     textThreeStyle: {
         borderWidth: 3,
