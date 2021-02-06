@@ -14,6 +14,9 @@ const LayoutExampleScreen = () => {
 export default LayoutExampleScreen
 
 const styles = StyleSheet.create({
+    viewStyle:{
+        flexDirection: 'row',
+    },
     viewOneStyle:{
         height:100,
         width:100,
