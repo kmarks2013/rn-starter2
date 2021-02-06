@@ -4,7 +4,9 @@ import { StyleSheet, Text, View } from 'react-native'
 const LayoutExampleScreen = () => {
     return (
         <View>
-            <Text>Layout Example</Text>
+            <View style={styles.viewOneStyle}></View>
+            <View></View>
+            <View></View>
         </View>
     )
 }
