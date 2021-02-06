@@ -11,4 +11,10 @@ const LayoutExampleScreen = () => {
 
 export default LayoutExampleScreen
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+    viewOneStyle:{
+        height:100,
+        width:100,
+        backgroundColor:'blue'
+    }
+})
