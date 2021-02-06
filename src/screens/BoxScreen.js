@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
         // alignItems: 'center'
         // alignItems: 'flex-end' // <-- depends upon flex direction. if its column its left to right if its row its top to bottom
         // flexDirection: 'column'  default flex direciton
-        flexDirection: 'row',
+        // flexDirection: 'row',
         // alignItems: 'center'
         // justifyContent: 'center' <-- flex direction will reverse how it works like align items
         // justifyContent: 'flex-end'
