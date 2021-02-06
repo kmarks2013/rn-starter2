@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
         borderColor: 'black',
         height: 200,
         // alignItems: 'flex-start'
-        alignItems: 'stretch'
+        alignItems: 'flex-end'
         // alignItems: 'flex-end' // <-- depends upon flex direction. if its column its left to right if its row its top to bottom
         // flexDirection: 'column'  default flex direciton
         // flexDirection: 'row',
