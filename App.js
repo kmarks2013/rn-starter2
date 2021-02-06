@@ -9,6 +9,7 @@ import ColorScreen from './src/screens/ColorScreen';
 import SquareScreen from './src/screens/SquareScreen';
 import TextScreen from './src/screens/TextScreen';
 import BoxScreen from './src/screens/BoxScreen';
+import LayoutExampleScreen from './src/screens/LayoutExampleScreen';
 
 const navigator = createStackNavigator(
   {
