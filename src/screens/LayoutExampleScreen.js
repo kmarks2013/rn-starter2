@@ -16,7 +16,7 @@ export default LayoutExampleScreen
 const styles = StyleSheet.create({
     viewStyle:{
         flexDirection: 'row',
-        justifyContent: 'space-between'
+        justifyContent: 'space-between',
     },
     viewOneStyle:{
         height:100,
