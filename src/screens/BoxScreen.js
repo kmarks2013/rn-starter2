@@ -25,7 +25,8 @@ const styles = StyleSheet.create({
         height: 200,
         // alignItems: 'center'
         // justifyContent: 'center'
-        justifyContent: 'flex-end'
+        // justifyContent: 'flex-end'
+        justifyContent: 'space-between'
     },
     textStyle: {
         borderWidth: 3,
