@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
         // justifyContent: 'space-between'
         justifyContent: 'center'
     },
-    textStyle: {
+    textOneStyle: {
         borderWidth: 3,
         borderColor: 'red'
     }
