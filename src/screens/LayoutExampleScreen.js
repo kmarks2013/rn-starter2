@@ -18,5 +18,10 @@ const styles = StyleSheet.create({
         height:100,
         width:100,
         backgroundColor:'blue'
-    }
+    },
+    viewTwoStyle:{
+        height:100,
+        width:100,
+        backgroundColor:'blue'
+    },
 })
